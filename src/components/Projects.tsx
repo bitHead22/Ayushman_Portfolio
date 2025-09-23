@@ -5,50 +5,36 @@ import Image from "next/image";
 const Projects = () => {
   const content = [
     {
-      title: "Coders Ground",
+      title: "Mentora",
       description:
-        "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+        "Mentora is an AI-powered career advancement platform built to help professionals create tailored resumes, generate impactful cover letters, and prepare for interviews with adaptive AI-driven tools.",
+      link: "https://mentora-lake.vercel.app/",
       content: (
         <div className="h-full w-full  flex items-center justify-center text-white">
           <Image
-            src="/Coderground.png"
+            src="/mentora.png"
             width={2000}
             height={1500}
             className="h-full w-full object-fit"
-            alt="Coders Ground"
+            alt="Mentora"
           />
         </div>
       ),
       imgurl: ""
     },
     {
-      title: "Dashboard",
+      title: "Ecstasia",
       description:
-        "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+        " Ecstasia is a full-stack web app which enables users to register, manage profiles, book event tickets, create and join teams, and participate in various events. Administrators and coordinators can oversee event bookings, manage users, and handle event logistics. The system supports user authentication, role-based access (admin, coordinator, user), and provides features for searching, updating, and organizing event-related data efficiently.",
+      link: "https://ecstasia.co.in/",
       content: (
         <div className="h-full w-full  flex items-center justify-center text-white">
           <Image
-            src="/linear.webp"
+            src="/ecstasia.png"
             width={1500}
             height={1500}
             className="h-full w-full object-cover"
-            alt="DashBoard"
-          />
-        </div>
-      ),
-    },
-    {
-      title: "Weather App",
-      description:
-        "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
-      content: (
-        <div className="h-full w-full  flex items-center justify-center text-white">
-          <Image
-            src="/weatherapp.png"
-            width={1500}
-            height={1500}
-            className="h-full w-full object-cover"
-            alt="Weather app"
+            alt="Ecstasia"
           />
         </div>
       ),

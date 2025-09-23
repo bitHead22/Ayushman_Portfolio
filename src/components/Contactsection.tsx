@@ -27,16 +27,16 @@ function Contactsection() {
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
           <LabelInputContainer>
             <Label htmlFor="firstname">First name</Label>
-            <Input id="firstname" placeholder="Piyush" type="text" />
+            <Input id="firstname" placeholder="Ayushman" type="text" />
           </LabelInputContainer>
           <LabelInputContainer>
             <Label htmlFor="lastname">Last name</Label>
-            <Input id="lastname" placeholder="Soni" type="text" />
+            <Input id="lastname" placeholder="Tiwari" type="text" />
           </LabelInputContainer>
         </div>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="email">Email Address</Label>
-          <Input id="email" placeholder="piyushsoniiii.07@gmail.com" type="email" />
+          <Input id="email" placeholder="ayushmantiwari033@gmail.com" type="email" />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="message">Message</Label>

@@ -7,11 +7,11 @@ import { cn } from "@/utils/cn";
 export const StickyScroll = ({
   content,
   contentClassName,
-  
 }: {
   content: {
     title: string;
     description: string;
+    link?: string; // <-- Add link property
     content?: React.ReactNode | any;
   }[];
   contentClassName?: string;
@@ -72,7 +72,18 @@ export const StickyScroll = ({
                 }}
                 className="text-2xl font-bold text-slate-100"
               >
-                {item.title}
+                {item.link ? (
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline text-[#7e3bc6]"
+                  >
+                    {item.title}
+                  </a>
+                ) : (
+                  item.title
+                )}
               </motion.h2>
               <motion.p
                 initial={{

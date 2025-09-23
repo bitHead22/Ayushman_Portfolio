@@ -6,39 +6,31 @@ import { TracingBeam } from "./ui/tracing-beam";
 
 const dummyContent = [
   {
-    title: "Nextjs",
-    description: (
-      <>
-        <p>
-          Developed an engaging website for ITARA, a marble and granite
-          wholesaler, using Next.js and hosted on Hostinger. Strategically
-          planned architecture, implemented custom features, and ensured
-          seamless responsiveness for optimal user experience. Resulted in a
-          visually stunning platform showcasing ITARA's products effectively,
-          enhancing online presence and customer engagement
-        </p>
-      </>
-    ),
-    badge: "ItaraIndia",
-    image: "/Itara.png",
-  },
-
-  {
     title: "Reactjs",
     description: (
       <>
-        <p>
-          Contributed as a Frontend Developer at Forgenet Lab, a cyber
-          security-focused EdTech startup. Utilized React.js and Tailwind CSS,
-          along with libraries like Three.js and Shadcn for UI development.
-          Crafted engaging landing, about, login, and signup pages. Seamlessly
-          integrated features to enhance user experience, driving the platform's
-          growth in the cybersecurity education sector.
-        </p>
+        <ul className="list-disc pl-5">
+          <li>
+            Engineered and enhanced modules for geospatial visualization, data
+            verification, and review workflows for municipal property assessment.
+          </li>
+          <li>
+            Built interactive UI components for advanced search, filtering, and
+            status management using React and Material-UI.
+          </li>
+          <li>
+            Applied dynamic data tables and custom filter logic, integrating with
+            backend APIs to streamline the review process.
+          </li>
+          <li>
+            Contributed to data model design and optimization to improve user
+            experience with large-scale data.
+          </li>
+        </ul>
       </>
     ),
-    badge: "ForgeNet-Labs",
-    image: "/Forgenet.png",
+    badge: "Chitragupta Urban Tech (June 2025– July 2025)",
+    image: "/chitragupta.png",
   },
 ];
 
