@@ -22,6 +22,25 @@ const Projects = () => {
       ),
       imgurl: ""
     },
+
+        {
+      title: "Juno",
+      description:
+        "Juno is a dedicated platform designed for college students to discover and apply for open positions within various campus clubs. It helps clubs post their opportunities and manage applications, while providing students with an easy way to explore, apply, and connect with their college community.",
+      link: "https://juno-seven.vercel.app/",
+      content: (
+        <div className="h-full w-full  flex items-center justify-center text-white">
+          <Image
+            src="/juno.png"
+            width={1500}
+            height={1500}
+            className="h-full w-full object-cover"
+            alt="Juno"
+          />
+        </div>
+      ),
+    },
+    
     {
       title: "Ecstasia",
       description:
