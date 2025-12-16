@@ -23,7 +23,7 @@ const Skills = () => {
         <Skillicon imgurl={"/ts.png"} />
         <Skillicon imgurl={"/mui.png"} />
         <Skillicon imgurl={"/framer.png"} />
-        <Skillicon imgurl={"/redux.png"} />
+        {/* <Skillicon imgurl={"/redux.png"} /> */}
         <Skillicon imgurl={"/figma.png"} />
         <Skillicon imgurl={"/node.png"} />
       </div>
@@ -31,17 +31,17 @@ const Skills = () => {
       <div className="flex gap-3 flex-wrap justify-center ">
         <Skillicon imgurl={"/express.png"} />
         <Skillicon imgurl={"/mongodb.png"} />
-        <Skillicon imgurl={"/firebase.png"} />
+        {/* <Skillicon imgurl={"/firebase.png"} /> */}
         <Skillicon imgurl={"/git.png"} />
         <Skillicon imgurl={"/github-icon.jpeg"} />
       </div>
       <div className="flex gap-3 flex-wrap justify-center z-20">
         <Skillicon imgurl={"/vscode.png"} />
-        <Skillicon imgurl={"/sublime.png"} />
+        {/* <Skillicon imgurl={"/sublime.png"} /> */}
         <Skillicon imgurl={"/docker.png"} />
       </div>
       <div className="flex gap-3 flex-wrap justify-center  z-20">
-        <Skillicon imgurl={"/mysql.png"} />
+        {/* <Skillicon imgurl={"/mysql.png"} /> */}
       </div>
     </div>
   );
