@@ -33,7 +33,7 @@ const Profiles = () => {
       value: "TUF+",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <Link href={'https://takeuforward.org/plus/profile/ayushman_22'} target="_new2">
+          <Link href={'https://takeuforward.org/profile/ayushman_22'} target="_new2">
           <p>TUF+</p>
           <Image
             src="/tuf.png"
